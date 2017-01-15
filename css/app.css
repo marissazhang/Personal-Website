@@ -1,0 +1,65 @@
+
+/* ------ Typography ------ */
+h1, h2, h3, h4, h5, h6, p, a {
+	color: #7E4C22;
+	font-family: 'Karla', sans-serif;
+}
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+/* ------ padding ------ */
+.verytop{
+	padding-top: 1em;
+}
+.toppad {
+	padding-top: 2em;
+}
+.bottompad {
+	padding-bottom: 2em;
+}
+.rightcontent {
+	padding-top: 1em;
+}
+
+
+/* ------ Laying content on top of particles ------ */
+.content {
+	position: relative;
+	z-index: 9999;
+}
+
+/* ------ particles positioning ------ */
+/* ------ TODO make this stretch down entire screen ------ */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* ------ sizing icon ------ */
+.icon {
+	width: 25px;
+}
+
+/* ------ semi transparent tags ------ */
+.lighten {
+	opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
