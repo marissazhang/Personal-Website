@@ -50,10 +50,32 @@ h1, h2, h3, h4, h5, h6, p, a {
 	width: 25px;
 }
 
+.contacticon {
+	width: 1.1em;
+}
+
 /* ------ semi transparent tags ------ */
 .lighten {
 	opacity: 0.6;
 }
+
+/* ------ contact buttons ------ */
+.button {
+	background-color: transparent;
+	border: 2px solid rgba(126, 76, 34, 0.6);
+	border-radius: 4px;
+	color: #7E4C22;
+}
+
+.button:hover, .button:focus {
+	background-color: rgba(126, 76, 34, 0.6);
+}
+
+.rightpad {
+	margin-right: 1em;
+}
+
+
 
 
 
